@@ -1,0 +1,31 @@
+{
+    "name": "eslint-wotusay",
+    "version": "1.0.0",
+    "description": "Eslint config for angular 12+",
+    "main": "index.js",
+    "author": "Wotusay",
+    "license": "MIT",
+    "keywords": [
+        "javascript",
+        "ecmascript",
+        "eslint",
+        "lint",
+        "config",
+        "eslint-config",
+        "angular"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Wotusay/eslint-wotusay"
+    },
+    "eslintIgnore": [
+        "node_modules",
+        "coverage",
+        "dist"
+    ],
+    "scripts": {
+        "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
+        "lint:fix": "eslint --ext .js,.jsx,.ts,.tsx . --fix",
+        "validate": "npm run lint --silent"
+    }
+}
