@@ -74,7 +74,7 @@ module.exports = {
                 endOfLine: 'lf',
                 htmlWhitespaceSensitivity: 'css',
                 insertPragma: false,
-                printWidth: 120,
+                printWidth: 90,
                 proseWrap: 'always',
                 quoteProps: 'as-needed',
                 requirePragma: false,
