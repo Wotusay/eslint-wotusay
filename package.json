@@ -3,6 +3,7 @@
     "version": "1.0.2",
     "description": "Eslint config for angular 12+",
     "main": "index.js",
+    "readme": "README.md",
     "author": "Wotusay",
     "license": "MIT",
     "keywords": [
