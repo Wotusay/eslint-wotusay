@@ -133,7 +133,6 @@ module.exports = {
                     'error',
                     {
                         type: 'element',
-                        prefix: 'di',
                         style: 'kebab-case',
                     },
                 ],
@@ -141,7 +140,6 @@ module.exports = {
                     'error',
                     {
                         type: 'attribute',
-                        prefix: 'di',
                         style: 'camelCase',
                     },
                 ],
